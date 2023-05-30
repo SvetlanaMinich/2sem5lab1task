@@ -73,6 +73,12 @@ build CMakeFiles/queue.dir/Iterator.cpp.obj: CXX_COMPILER__queue_Debug C$:/lab5C
   OBJECT_DIR = CMakeFiles\queue.dir
   OBJECT_FILE_DIR = CMakeFiles\queue.dir
 
+build CMakeFiles/queue.dir/MyTask.cpp.obj: CXX_COMPILER__queue_Debug C$:/lab5C/queue/MyTask.cpp || cmake_object_order_depends_target_queue
+  DEP_FILE = CMakeFiles\queue.dir\MyTask.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\queue.dir
+  OBJECT_FILE_DIR = CMakeFiles\queue.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target queue
@@ -81,7 +87,7 @@ build CMakeFiles/queue.dir/Iterator.cpp.obj: CXX_COMPILER__queue_Debug C$:/lab5C
 #############################################
 # Link the executable queue.exe
 
-build queue.exe: CXX_EXECUTABLE_LINKER__queue_Debug CMakeFiles/queue.dir/main.cpp.obj CMakeFiles/queue.dir/Queue.cpp.obj CMakeFiles/queue.dir/Shared_ptr.cpp.obj CMakeFiles/queue.dir/Iterator.cpp.obj
+build queue.exe: CXX_EXECUTABLE_LINKER__queue_Debug CMakeFiles/queue.dir/main.cpp.obj CMakeFiles/queue.dir/Queue.cpp.obj CMakeFiles/queue.dir/Shared_ptr.cpp.obj CMakeFiles/queue.dir/Iterator.cpp.obj CMakeFiles/queue.dir/MyTask.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\queue.dir

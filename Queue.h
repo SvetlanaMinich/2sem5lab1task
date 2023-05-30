@@ -1,3 +1,4 @@
+#pragma once
 #ifndef QUEUE_QUEUE_H
 #define QUEUE_QUEUE_H
 #include <iostream>

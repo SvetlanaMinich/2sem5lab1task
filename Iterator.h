@@ -1,3 +1,4 @@
+#pragma once
 #ifndef QUEUE_ITERATOR_H
 #define QUEUE_ITERATOR_H
 #include <iostream>
@@ -10,7 +11,7 @@ private:
 public:
     using iterator_category = std::random_access_iterator_tag;
     Iterator();
-    Iterator(T* iter);
+    explicit Iterator(T* iter);
     Iterator(const Iterator<T>& another);
     Iterator<T>& operator++();
     Iterator<T>& operator--();
